@@ -35,3 +35,4 @@ const WhySection = () => {
 };
 
 export default WhySection;
+
