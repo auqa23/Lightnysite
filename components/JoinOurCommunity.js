@@ -62,7 +62,7 @@ const JoinOurCommunity = () => {
             <div className="grid mt-10 grid-cols-1 sm:grid-cols-2 gap-4   rounded-xl ">
               <div className="text-dark bg-main p-3 rounded-lg max-w-[18rem] min-w-[100%]">
                 <h3 className="text-2xl opacity-80 easeIn">{data[0]}</h3>
-                <h2 className="text-3xl">Total server</h2>
+                <h2 className="text-3xl">Total servers</h2>
               </div>
               <div className="text-dark bg-main p-3 rounded-lg max-w-[18rem] min-w-[100%]">
                 <h3 className="text-2xl opacity-80">{data[1]}</h3>
@@ -70,19 +70,14 @@ const JoinOurCommunity = () => {
               </div>
               <div className="text-dark bg-main p-3 rounded-lg max-w-[18rem] min-w-[100%]">
                 <h3 className="text-2xl opacity-80">{data[2]}</h3>
-                <h2 className="text-3xl">Executed command</h2>
+                <h2 className="text-3xl">Executed commands</h2>
               </div>
               <div className="text-dark bg-main p-3 rounded-lg max-w-[18rem] min-w-[100%]">
                 <h3 className="text-2xl opacity-80">{data[3]}</h3>
-                <h2 className="text-3xl">Available command</h2>
+                <h2 className="text-3xl">Available commands</h2>
               </div>
             </div>
           </div>
-          <div className="flex justify-center items-center sm:w-[50%]  gap-x-5">
-            <a href={config.facebookLink} target="_blank" rel="noreferrer">
-              <span className="sr-only"> Social Handle</span>
-              <BsFacebook className="h-10 w-10 text-[#4267B2] hover:scale-125 easeIn cursor-pointer" />
-            </a>
             <a href={config.discordLink} target="_blank" rel="noreferrer">
               <span className="sr-only"> Social Handle</span>
               <FaDiscord className="h-10 w-10 text-[#738adb] hover:scale-125 easeIn cursor-pointer" />
@@ -91,7 +86,6 @@ const JoinOurCommunity = () => {
               <span className="sr-only"> Social Handle</span>
               <BsYoutube className="h-10 w-10 text-[#FF0000] hover:scale-125 easeIn cursor-pointer" />
             </a>
-          </div>
         </div>
       </div>
     </section>
