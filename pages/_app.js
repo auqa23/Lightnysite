@@ -6,7 +6,7 @@ import "../styles/globals.css";
 function MyApp({ Component, pageProps }) {
   const description = `${
     config.name
-  } is a discord bot with features like ${config.Features.map(
+  } is a Discord bot with features like ${config.Features.map(
     (data) => data.name
   )}`;
   const title = config.name;
@@ -22,14 +22,6 @@ function MyApp({ Component, pageProps }) {
         <meta itemProp="name" content={title} />
         <meta itemProp="description" content={description} />
         <meta itemProp="image" content="/logo.png" />
-
-        {/* <!-- Twitter Card data --> */}
-        <meta name="twitter:card" content="/logo.png" />
-        <meta name="twitter:site" content={siteUrl} />
-        <meta name="twitter:title" content={title} />
-        <meta name="twitter:description" content={description} />
-        {/* <!-- Twitter summary card with large image must be at least 280x150px --> */}
-        <meta name="twitter:image:src" content="/logo.png" />
 
         {/* <!-- Open Graph data --> */}
         <meta property="og:title" content={title} />
